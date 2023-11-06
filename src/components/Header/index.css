@@ -1,0 +1,35 @@
+.header-container {
+  background: #ffe475;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.cart {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  width: 100px;
+  border-radius: 10px;
+}
+.cart-icon {
+  height: 20px;
+  width: 20px;
+}
+.main-heading {
+  font-size: 32px;
+  font-weight: 600;
+}
+.count {
+  font-weight: 600;
+  margin-left: 5px;
+  font-size: 18px;
+}
+@media screen and (max-width: 768px) {
+  .main-heading {
+    font-family: 'Mortise';
+    font-size: 20px;
+  }
+}
